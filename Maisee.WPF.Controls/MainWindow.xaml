@@ -1,0 +1,16 @@
+﻿<Controls:MetroWindow x:Class="Maisee.WPF.Controls.MainWindow"
+                        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                        xmlns:ctrls="clr-namespace:Maisee.WPF.Controls.Controls"
+                        Title="MainWindow" Height="350" Width="525"
+                        Style="{DynamicResource CleanWindowStyleKey}">
+    <UniformGrid>
+        <ctrls:RLToggleButton 
+            NormalImage="Resources\Images\bird_blue.png"
+            DisabledImage="Resources\Images\bird_black.png"
+            RightToggeledImage="Resources\Images\bird_yellow.png"
+            LeftToggeledImage="Resources\Images\birds-green2.png" />
+        <!--<Button Background="Aquamarine"></Button>-->
+    </UniformGrid>
+</Controls:MetroWindow>
